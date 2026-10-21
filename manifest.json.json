@@ -1,0 +1,19 @@
+{
+  "name": "Goyabu Nuvio",
+  "version": "1.0.0",
+  "description": "Provider de animes em pt-BR (Goyabu)",
+  "scrapers": [
+    {
+      "id": "goyabu",
+      "name": "Goyabu",
+      "description": "Animes em pt-BR via Goyabu (Blogger)",
+      "version": "1.0.0",
+      "author": "",
+      "supportedTypes": ["movie", "tv"],
+      "contentLanguage": ["pt"],
+      "formats": ["mp4"],
+      "enabled": true,
+      "filename": "providers/goyabu.js"
+    }
+  ]
+}
